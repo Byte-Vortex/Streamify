@@ -2,11 +2,14 @@
 
 Streamify is a music streaming analytics dashboard built using TypeScript and Next.js, with styling provided by Tailwind CSS. It utilizes the Last.fm API to fetch and display key metrics and data visualizations, providing insights into user activity, revenue, and content performance. The dashboard is designed to be functional, visually appealing, responsive, and user-friendly.
 
+---
+
 ## Table of Contents
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
 - [Usage](#usage)
 - [API Integration](#api-integration)
 - [Environment Variables](#environment-variables)
@@ -14,6 +17,8 @@ Streamify is a music streaming analytics dashboard built using TypeScript and Ne
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+---
 
 ## Features
 
@@ -23,6 +28,8 @@ Streamify is a music streaming analytics dashboard built using TypeScript and Ne
   - **Data Table**: Detailed information about recent streams.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 - **User-Friendly Interface**: Intuitive and easy to navigate.
+
+---
 
 ## Getting Started
 
@@ -52,8 +59,74 @@ Make sure you have the following installed:
     pnpm install
     ```
 
+---
+
 ## Usage
 
 To start the development server, run:
 ```sh
 pnpm dev
+```
+
+---
+
+## API Integration
+
+This project uses the Last.fm API to fetch data. To use the API, you need to obtain an API key from Last.fm and add it to your environment variables.
+
+---
+
+## Environment Variables
+
+Create a `.env` file in the root directory of your project and add the following environment variables:
+
+```env
+NEXT_PUBLIC_LAST_FM_API_KEY=your_api_key_here
+NEXT_PUBLIC_LAST_FM_BASE_URL=https://ws.audioscrobbler.com/2.0/
+```
+
+Replace `your_api_key_here` with your actual Last.fm API key.
+
+---
+
+## Deployment
+
+This project is hosted on Vercel. You can visit the live application at [streamify-bytevortex.vercel.app](https://streamify-bytevortex.vercel.app).
+
+---
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1. Fork the Project.
+2. Create your Feature Branch:
+   ```sh
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your Changes:
+   ```sh
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the Branch:
+   ```sh
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request.
+
+---
+
+## License
+
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
+
+---
+
+## Contact
+
+**Byte-Vortex**  
+GitHub: [@ByteVortex](https://github.com/Byte-Vortex)  
+Email: email@example.com  
+
+Project Link: [https://github.com/Byte-Vortex/Streamify](https://github.com/Byte-Vortex/Streamify)
+
