@@ -65,7 +65,7 @@ Make sure you have the following installed:
 
 To start the development server, run:
 ```sh
-pnpm dev
+pnpm run dev
 ```
 
 ---
