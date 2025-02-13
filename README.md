@@ -120,7 +120,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 **Byte-Vortex**  
 GitHub: [@ByteVortex](https://github.com/Byte-Vortex)  
-Email: email@example.com  
+Email: akshatanwar24@gmail.com 
 
 Project Link: [https://github.com/Byte-Vortex/Streamify](https://github.com/Byte-Vortex/Streamify)
 
